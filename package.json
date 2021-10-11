@@ -1,6 +1,7 @@
 {
   "name": "node-express-weather-App",
   "version": "1.0.0",
+  "type":"module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -11,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "ejs": "^3.1.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "node-fetch": "^3.0.0"
   }
 }
