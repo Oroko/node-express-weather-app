@@ -6,7 +6,7 @@ const port = 3000
 const weatherRoute = require('./routes/weather')
 
 // Use view Engine 
-
+app.set('view engine', 'ejs')
 
 // Middleware route 
 app.use('/', weatherRoute)
